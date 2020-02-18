@@ -1,0 +1,102 @@
+body {
+    background-color: #f9e7dc;
+  }
+
+
+/****** NAV *******/
+
+.top-page {
+    margin-top: 4%;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+#top-right {
+    text-align: right;
+}
+
+p {
+    color: black;
+    text-decoration: none;
+  }
+
+a {
+  color: black;
+  text-decoration: none;
+  outline: none;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+    outline: none;
+}
+
+a:visited {
+    text-decoration: none;
+  }
+    
+a:hover {
+  color: white;
+  text-decoration: none;
+  outline: none;
+}
+
+p:hover {
+    color: white;
+    text-decoration: none;
+    outline: none;
+  }
+  
+a:active {
+    color: white;
+    text-decoration: none;
+  }
+
+
+.main-home {
+    font-family: 'News Cycle', sans-serif;
+    background-image: url("img/colors-bg.png");
+    background-repeat: no-repeat, repeat;
+}
+
+.title-home {
+    font-size: 700%;
+    margin-top: 17%;
+    margin-bottom: 20%;
+    margin-left:10%;
+    color: white;
+}
+
+
+
+/****** ABOUT *******/
+
+.projecttop {
+    margin-top: 10%;
+    font-family: 'News Cycle', sans-serif;
+}
+
+
+
+/******** WORK  *********/
+.icbcontainer {
+    font-family: 'News Cycle', sans-serif;
+}
+
+.icbimg {
+    opacity: 1;
+    width: 70%;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+  .icbcontainer:hover .icbimg {
+    opacity: 0.3;
+  }
+
+
+  /******** CONTACT *********/
+  h4 {
+    font-family: 'News Cycle', sans-serif;
+  }
